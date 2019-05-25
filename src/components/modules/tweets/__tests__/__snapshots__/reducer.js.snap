@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tweets reducer create new tweet 1`] = `
+Object {
+  "allIds": Array [
+    "<id>",
+  ],
+  "byId": Object {
+    "<id>": Object {
+      "createdAt": "<datetime>",
+      "id": "<id>",
+      "replyToId": null,
+      "text": "Test tweet",
+      "userId": null,
+    },
+  },
+}
+`;

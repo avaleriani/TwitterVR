@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tweets actions creates tweet 1`] = `
+Object {
+  "payload": Object {
+    "createdAt": "<datetime>",
+    "id": "<id>",
+    "replyToId": null,
+    "text": "Test tweet",
+    "userId": null,
+  },
+  "type": "@@tweets/CREATE_TWEET",
+}
+`;

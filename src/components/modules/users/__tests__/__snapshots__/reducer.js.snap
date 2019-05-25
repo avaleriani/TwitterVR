@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tweets reducer logouts 1`] = `
+Object {
+  "active": null,
+  "allIds": Array [],
+  "byId": Object {},
+}
+`;
+
+exports[`tweets reducer signins 1`] = `
+Object {
+  "active": "123",
+  "allIds": Array [],
+  "byId": Object {},
+}
+`;
+
+exports[`tweets reducer signups 1`] = `
+Object {
+  "active": "<id>",
+  "allIds": Array [
+    "<id>",
+  ],
+  "byId": Object {
+    "<id>": Object {
+      "id": "<id>",
+      "username": "user",
+    },
+  },
+}
+`;

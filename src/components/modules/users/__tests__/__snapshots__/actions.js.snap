@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`users actions logouts 1`] = `
+Object {
+  "type": "@@users/LOGOUT",
+}
+`;
+
+exports[`users actions recieves auth 1`] = `
+Object {
+  "type": "@@users/RECIEVE_AUTH",
+}
+`;
+
+exports[`users actions signs in 1`] = `
+Object {
+  "payload": Object {
+    "id": 123,
+  },
+  "type": "@@users/SIGNIN",
+}
+`;
+
+exports[`users actions signs up 1`] = `
+Object {
+  "payload": Object {
+    "id": "<id>",
+    "username": "user",
+  },
+  "type": "@@users/SIGNUP",
+}
+`;

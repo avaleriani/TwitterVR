@@ -1,5 +1,5 @@
 {
-  "name": "twitter-vr",
+  "name": "twittervr",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,12 +10,19 @@
     "test": "jest"
   },
   "dependencies": {
+    "@material-ui/core": "^4.0.0",
     "eslint-plugin-jsx-a11y": "6.x",
-    "react": "16.3.2",
+    "prettier": "^1.17.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
     "react-360": "~1.1.0",
     "react-360-keyboard": "^1.0.2",
     "react-360-web": "~1.1.0",
+    "react-dom": "^16.8.6",
     "react-native": "~0.55.4",
+    "react-native-elements": "^1.1.0",
+    "react-redux": "6.0.1",
+    "redux": "^4.0.1",
     "three": "^0.87.0"
   },
   "devDependencies": {

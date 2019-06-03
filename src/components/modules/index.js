@@ -1,16 +1,14 @@
-import { combineReducers } from 'redux';
-import { connectRouter } from 'connected-react-router';
-import history from '../utils/history';
+import { combineReducers } from "redux";
 
-import users, * as fromUsers from './users';
-import tweets, * as fromTweets from './tweets';
+import users, * as fromUsers from "./users";
+import tweets, * as fromTweets from "./tweets";
 
 export const rootReducer = combineReducers({
   users,
-  tweets,
+  tweets
 });
 
-export default connectRouter(history)(rootReducer);
+export default rootReducer;
 
 export const getTweetMeta = (state, tweet) => {
   const repliedTweet = fromTweets.getTweetById(state.tweets, tweet.replyToId);

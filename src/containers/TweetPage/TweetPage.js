@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Redirect } from 'react-router-dom';
-import { getUserById } from '../../modules/users';
+import { getUserById } from '../../components/modules/users';
 import {
   createTweet,
   getTweetById,
   getRepliesById,
-} from '../../modules/tweets';
-import { getTweetMeta } from '../../modules';
+} from '../../components/modules/tweets';
+import { getTweetMeta } from '../../components/modules';
 import TweetInput from '../../components/TweetInput';
 import Tweet from '../../components/Tweet';
 import Timeline from '../../components/Timeline';

@@ -1,4 +1,4 @@
-import React from 'react';
+∑∑import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
@@ -10,7 +10,7 @@ import {
   withStyles,
   Avatar,
 } from '@material-ui/core';
-import { logout, getUserById, isAuthenticated } from '../../modules/users';
+import { logout, getUserById, isAuthenticated } from '../../components/modules/users';
 import colorFrom from '../../utils/colors';
 
 const styles = theme => ({

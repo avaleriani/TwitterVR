@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Route, Redirect } from 'react-router-dom';
-import { recieveAuth, isAuthenticated } from '../../modules/users';
+import { recieveAuth, isAuthenticated } from '../../components/modules/users';
 
 export class PrivateRoute extends React.Component {
   static propTypes = {

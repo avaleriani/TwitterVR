@@ -17,9 +17,10 @@ function init(bundle, parent, options = {}) {
     r360.getDefaultSurface()
   );
 
-  // Load the initial environment
-  r360.compositor.setBackground(r360.getAssetURL("360_world.jpg"));
   KeyboardModule.setInstance(r360);
+
+  // Load the initial environment
+  r360.compositor.setBackground(r360.getAssetURL("world.jpg"));
 }
 
 window.React360 = { init };

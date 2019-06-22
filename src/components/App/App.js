@@ -1,21 +1,8 @@
-import React from "react";
-import { Text, View, StyleSheet } from "react-360";
-import styles from "./app.css.js";
-import Login from "../../containers/Login/Login";
+import React, { Component } from "react";
+import Tweets from "../Tweets/Tweets";
 
-const stylesheet = StyleSheet.create(styles);
-
-class App extends React.Component {
+export default class App extends Component {
   render() {
-    return (
-      <View style={stylesheet.panel}>
-        <View style={stylesheet.greetingBox}>
-          <Text> Login </Text>
-          <Login />
-        </View>
-      </View>
-    );
+    return <Tweets />;
   }
 }
-
-export default App;

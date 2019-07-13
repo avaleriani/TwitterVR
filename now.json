@@ -6,7 +6,8 @@
       "src": "package.json",
       "use": "@now/static-build",
       "config": { "distDir": "build" }
-    }
+    },
+    { "src": "static_assets/**", "use": "@now/static" }
   ],
   "env": {
     "API_URL": "https://twittervr-api.avaleriani.now.sh"

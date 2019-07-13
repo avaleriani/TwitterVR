@@ -19,4 +19,4 @@ Running
 npm start
 ```
 
-on / and /server will launch the project with the api.
+Launches the project for dev.

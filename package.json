@@ -7,7 +7,8 @@
     "build": "node node_modules/react-360/scripts/bundle.js",
     "open": "node -e \"require('xopen')('http://localhost:8081/index.html')\"",
     "devtools": "react-devtools",
-    "test": "jest"
+    "test": "jest",
+    "now-dev": "node node_modules/react-360/scripts/bundle.js"
   },
   "dependencies": {
     "@material-ui/core": "^4.0.0",

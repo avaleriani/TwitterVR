@@ -20,7 +20,7 @@ function init(bundle, parent, options = {}) {
   KeyboardModule.setInstance(r360);
 
   // Load the initial environment
-  r360.compositor.setBackground(r360.getAssetURL("world.jpg"));
+  r360.compositor.setBackground(r360.getAssetURL("bg.jpeg"));
 }
 
 window.React360 = { init };

@@ -6,7 +6,7 @@ function init(bundle, parent, options = {}) {
     // Add custom options here
     fullScreen: true,
     nativeModules: [KeyboardModule.addModule],
-    assetRoot: './static_assets',
+    assetRoot: 'static',
     ...options
   });
 

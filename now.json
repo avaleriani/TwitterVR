@@ -15,7 +15,7 @@
     {
       "src": "/static_assets/(.*)",
       "headers": { "cache-control": "s-maxage=31536000,immutable" },
-      "dest": "/static_assets/$1"
+      "dest": "../static_assets/$1"
     },
     {
       "src": "/(.*)",

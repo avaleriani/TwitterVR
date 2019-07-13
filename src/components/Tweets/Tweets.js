@@ -25,7 +25,7 @@ export default class Tweets extends Component {
   };
 
   fetchUserTweets = (input: string) => {
-    fetch(`http://localhost:3001/v1/get?name=${input}`)
+    fetch(`${process.env.API_URL}/v1/get?name=${input}`)
       .then(res => res.json())
       .then(json => {
         this.setState({ tweets: json });

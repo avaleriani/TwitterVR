@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "name": "twitter-vr",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "build" }
+    }
+  ],
+  "env": {
+    "API_URL": "https://twittervr-api.avaleriani.now.sh"
+  },
+  "routes": [
+    {
+      "src": "/static_assets/(.*)",
+      "headers": { "cache-control": "s-maxage=31536000,immutable" },
+      "dest": "/static_assets/$1"
+    },
+    {
+      "src": "/(.*)",
+      "headers": { "cache-control": "s-maxage=0" },
+      "dest": "/build/index.html"
+    }
+  ]
+}

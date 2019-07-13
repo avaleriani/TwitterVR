@@ -14,14 +14,14 @@
   },
   "routes": [
     {
-      "src": "/static_assets/(.*)",
+      "src": "static_assets/(.*)",
       "headers": { "cache-control": "s-maxage=31536000,immutable" },
-      "dest": "../static_assets/$1"
+      "dest": "static_assets/$1"
     },
     {
       "src": "/(.*)",
       "headers": { "cache-control": "s-maxage=0" },
-      "dest": "/build/index.html"
+      "dest": "build/index.html"
     }
   ]
 }

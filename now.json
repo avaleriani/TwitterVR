@@ -10,7 +10,7 @@
     { "src": "static_assets/**", "use": "@now/static" }
   ],
   "env": {
-    "API_URL": "https://twittervr-api.avaleriani.now.sh"
+    "API_URL": "https://twitter-vr-api.avaleriani.now.sh/"
   },
   "routes": [
     {
